@@ -1,0 +1,41 @@
+/* Puedes agregar estos estilos en tu archivo CSS global o en un archivo CSS específico para el componente */
+
+.table-responsive {
+  margin: 20px auto;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.custom-img {
+  width: 100px; /* Ajusta este valor como lo necesites */
+  height: auto; /* Esto mantendrá la proporción de la imagen */
+}
+
+/* Mejora la responsividad en dispositivos móviles */
+@media (max-width: 768px) {
+  .table-responsive {
+    border: 0;
+  }
+  .custom-img {
+    width: 50px; /* Ajusta el tamaño de la imagen para pantallas pequeñas */
+  }
+}
