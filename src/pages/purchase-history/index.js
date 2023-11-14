@@ -10,7 +10,7 @@ import "./purchase.css";
 const PurchaseHistory = () => {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const apiUrl = process.env.REACT_APP_KITCHEN_API_URL;
+  const apiUrl = "https://kitchen-service-dev-shfa.3.us-1.fl0.io/api/kitchen";
 
   useEffect(() => {
     const getPurchaseHistoryData = () => {

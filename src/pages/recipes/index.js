@@ -10,7 +10,7 @@ import "./recipes.css";
 const Recipes = () => {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const apiUrl = process.env.REACT_APP_RECIPES_API_URL;
+  const apiUrl = "https://recipes-service-dev-tfat.4.us-1.fl0.io/api/recipes";
 
   useEffect(() => {
     const getRecipesData = () => {

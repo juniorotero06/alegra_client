@@ -12,7 +12,7 @@ function OrdersComponent() {
   const [data, setData] = useState([]);
   const [placeHolderData, setPlaceHolderData] = useState([]);
 
-  const apiUrl = process.env.REACT_APP_RECIPES_API_URL;
+  const apiUrl = "https://recipes-service-dev-tfat.4.us-1.fl0.io/api/recipes";
 
   const toastProps = {
     autoClose: 4000,
