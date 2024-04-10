@@ -12,7 +12,8 @@ function OrdersComponent() {
   const [data, setData] = useState([]);
   const [placeHolderData, setPlaceHolderData] = useState([]);
 
-  const apiUrl = "https://recipes-service-dev-tfat.4.us-1.fl0.io/api/recipes";
+  const apiUrl =
+    "https://recipes-node-allegra-dev-amqn.3.us-1.fl0.io/api/recipes";
 
   const toastProps = {
     autoClose: 4000,

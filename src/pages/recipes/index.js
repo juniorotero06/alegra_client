@@ -10,7 +10,8 @@ import "./recipes.css";
 const Recipes = () => {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const apiUrl = "https://recipes-service-dev-tfat.4.us-1.fl0.io/api/recipes";
+  const apiUrl =
+    "https://recipes-node-allegra-dev-amqn.3.us-1.fl0.io/api/recipes";
 
   useEffect(() => {
     const getRecipesData = () => {
