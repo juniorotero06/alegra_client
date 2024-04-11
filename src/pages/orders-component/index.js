@@ -60,7 +60,7 @@ function OrdersComponent() {
     <Layout title="Pedidos">
       <Paper sx={{ maxWidth: 936, margin: "auto", overflow: "hidden" }}>
         <ToastContainer />
-        <div>
+        <div style={{ margin: 20 }}>
           <div>
             <h2>Ordenes</h2>
             <form
